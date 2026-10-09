@@ -89,6 +89,23 @@
 .linkedin-button:focus-visible{outline:3px solid var(--lime);outline-offset:5px}
 .linkedin-icon{flex:0 0 30px;display:block}
 @media(max-width:640px){.linkedin-button{width:100%;padding:16px 18px;margin-bottom:18px}}
+
+/* Higher-contrast typography with native device fonts. */
+:root{--ink:#102131;--muted:#3f4e5b}
+body{font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;font-weight:400}
+header{background:var(--paper)}
+h1,h2,.hero h1,.dossier h2,.card-top strong{font-weight:650}
+h3,.brand,.links,.discipline strong,.download strong{font-weight:700}
+.hero h1{letter-spacing:-1.8px}
+.hero h1 span{letter-spacing:-1px}
+.intro,.hero .intro,.contact p{color:#e0e7ed}
+.note,.dossier-top,.dossier-bottom,.download span,.eyebrow{color:#cbd6df}
+.kicker,.tag,.card-num{color:#465867}
+.contact .kicker{color:var(--lime)}
+.section-head p,.card p,.timeline-item p,.project-notes p,.sample-guide p{font-size:16px}
+.card dl,.sample-link p,.deployment,.education,.chip,.contact-extra{font-size:15px}
+.email{font-weight:500}
+@media(max-width:640px){.hero h1{letter-spacing:-1px}.hero h1 span{letter-spacing:-.5px}.hero .eyebrow{font-size:11px;letter-spacing:1px}.metric span{font-size:13px}.card summary{font-size:14px}.download span{font-size:14px}}
 </style>
 </head>
 <body><a class="skip" href="#main">Skip to content</a>
