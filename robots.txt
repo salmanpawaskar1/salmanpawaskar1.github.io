@@ -1,0 +1,5 @@
+# Crawling instructions for salmanpawaskar.com
+User-agent: *
+Allow: /
+
+Sitemap: https://www.salmanpawaskar.com/sitemap.xml
