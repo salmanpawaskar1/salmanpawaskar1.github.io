@@ -4,6 +4,7 @@ on:
     branches: [main]
     paths:
       - ".github/workflows/update-resumes.yml"
+      - "tools/build_resumes.py"
   workflow_dispatch:
 permissions:
   contents: write
